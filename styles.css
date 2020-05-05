@@ -1,34 +1,34 @@
 @font-face {
   font-family: "Inter";
-  src: url("./assets/fonts/Inter-Regular-slnt=0.ttf") format("truetype");
+  src: url("/fonts/Inter-Regular-slnt=0.ttf") format("truetype");
   font-style: normal;
   font-weight: 300;
 }
 
 @font-face {
   font-family: "Inter";
-  src: url("./assets/fonts/Inter-Bold-slnt=0.ttf") format("truetype");
+  src: url("/fonts/Inter-Bold-slnt=0.ttf") format("truetype");
   font-style: normal;
   font-weight: 700;
 }
 
 @font-face {
   font-family: "Roboto";
-  src: url("./assets/fonts/Roboto-Regular.ttf") format("truetype");
+  src: url("/fonts/Roboto-Regular.ttf") format("truetype");
   font-style: normal;
   font-weight: 300;
 }
 
 @font-face {
   font-family: "Roboto";
-  src: url("./assets/fonts/Roboto-Italic.ttf") format("truetype");
+  src: url("/fonts/Roboto-Italic.ttf") format("truetype");
   font-style: italic;
   font-weight: 300;
 }
 
 @font-face {
   font-family: "Roboto";
-  src: url("./assets/fonts/Roboto-Bold.ttf") format("truetype");
+  src: url("/fonts/Roboto-Bold.ttf") format("truetype");
   font-style: normal;
   font-weight: 700;
 }
@@ -37,6 +37,16 @@
   --black: rgba(0, 0, 0, 0.87);
   --white: #fffefc;
   --grey: rgba(0, 0, 0, 0.6);
+
+  --font-size-xxxxl: 4em;
+  --font-size-xxxl: 3em;
+  --font-size-xxl: 2.5em;
+  -—font-size-xl: 2em;
+  --font-size-l: 1.75em;
+  --font-size-m: 1.25em;
+  --font-size-p: 1em;
+  --font-size-s: 0.875em;
+  --font-size-xs: 0.75em;
 }
 
 /*----------Resetters----------*/
@@ -57,4 +67,41 @@ body {
 
 html {
   scroll-behavior: smooth;
+  font-size: 17px !important;
+}
+
+h1 {
+  font-size: var(--font-size-xxl);
+  line-height: 1.125;
+  letter-spacing: -0.05rem;
+}
+h2 {
+  font-size: var(--font-size-xl);
+}
+h3 {
+  font-size: var(--font-size-l);
+}
+h4 {
+  font-size: var(--font-size-m);
+}
+h5 {
+  font-size: var(--font-size-s);
+}
+h6 {
+  font-size: var(--font-size-xs);
+}
+p {
+  font-size: var(--font-size-p);
+  line-height: 1.4;
+  letter-spacing: -0.02rem;
+}
+
+.gradient-pink-peach {
+  background-image: linear-gradient(306deg, #ffb9fe, #ff6868, #f28b6f, #ec59ff);
+  background-size: 800% 800%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: Gradient 14s ease infinite;
+  -moz-animation: Gradient 14s ease infinite;
+  animation: Gradient 14s ease infinite;
 }

@@ -1,21 +1,17 @@
 // import App from "next/app";
-import Head from "next/head";
+import Head from "../components/Head";
 import Nav from "../components/Nav";
+import Placeholder from "../components/Placeholder";
 import "../styles.css";
 
 function MyApp({ Component, pageProps }) {
   return (
     <div>
-      <Head>
-        <title>My page title</title>
-        <meta name="description" content="description" />
-        <meta name="keywords" content="HTML, CSS, JavaScript" />
-        <meta name="author" content="John Doe" />
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <link rel="icon" type="image/x-icon" href="/favicon.png" />
-      </Head>
-      <Nav />
-      <Component {...pageProps} />
+      <Head />
+      <Placeholder />
+
+      {/* <Nav />
+      <Component {...pageProps} /> */}
     </div>
   );
 }

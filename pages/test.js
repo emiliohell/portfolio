@@ -1,14 +1,11 @@
-const Test = () => (
-  <div>
+export default () => (
+  <div className="test-container">
     <h1>Test</h1>
-    <p>This is a test.</p>
+    <style jsx>{`
+      .test-container {
+        display: flex;
+        justify-content: center;
+      }
+    `}</style>
   </div>
 );
-
-export default Test;
-
-// export default () => (
-//     <div>
-//       <h1>Blog</h1>
-//     </div>
-//   )

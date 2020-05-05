@@ -1,7 +1,13 @@
 const Index = () => (
-  <div>
-    <h1>Home</h1>
-    <p>Hello World!</p>
+  <div className="index-container">
+    <h1>Hello World</h1>
+
+    <style jsx>{`
+      .index-container {
+        display: flex;
+        justify-content: center;
+      }
+    `}</style>
   </div>
 );
 
