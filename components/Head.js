@@ -20,5 +20,9 @@ export default () => (
       key="viewport"
     />
     <link rel="icon" type="image/x-icon" href="/favicon.png" key="icon" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Inter:300,700|Roboto:400,400i,700&display=swap"
+      rel="stylesheet"
+    />
   </Head>
 );

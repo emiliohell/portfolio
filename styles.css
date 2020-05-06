@@ -1,13 +1,13 @@
-@font-face {
+/* @font-face {
   font-family: "Inter";
-  src: url("/fonts/Inter-Regular-slnt=0.ttf") format("truetype");
+  src: url("/fonts/Inter-VariableFont.ttf") format("truetype");
   font-style: normal;
   font-weight: 300;
 }
 
 @font-face {
   font-family: "Inter";
-  src: url("/fonts/Inter-Bold-slnt=0.ttf") format("truetype");
+  src: url("/fonts/Inter-VariableFont.ttf") format("truetype");
   font-style: normal;
   font-weight: 700;
 }
@@ -31,7 +31,7 @@
   src: url("/fonts/Roboto-Bold.ttf") format("truetype");
   font-style: normal;
   font-weight: 700;
-}
+} */
 
 :root {
   --black: rgba(0, 0, 0, 0.87);
@@ -58,7 +58,8 @@
 }
 
 body {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
+  font-family: "Inter", sans-serif;
   background-color: var(--white);
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
@@ -99,9 +100,44 @@ p {
 .gradient-pink-peach {
   background-image: linear-gradient(306deg, #ffb9fe, #ff6868, #f28b6f, #ec59ff);
   background-size: 800% 800%;
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-animation: Gradient 14s ease infinite;
   -moz-animation: Gradient 14s ease infinite;
   animation: Gradient 14s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 9%;
+  }
+  50% {
+    background-position: 100% 92%;
+  }
+  100% {
+    background-position: 0% 9%;
+  }
+}
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 9%;
+  }
+  50% {
+    background-position: 100% 92%;
+  }
+  100% {
+    background-position: 0% 9%;
+  }
+}
+@keyframes Gradient {
+  0% {
+    background-position: 0% 9%;
+  }
+  50% {
+    background-position: 100% 92%;
+  }
+  100% {
+    background-position: 0% 9%;
+  }
 }
