@@ -2,7 +2,7 @@ import Head from "next/head";
 
 export default () => (
   <Head>
-    <title>EMILIOH</title>
+    <title>EMILIOH / DEV</title>
     <meta
       name="description"
       content="Emilio Hellberg Portfolio Website"

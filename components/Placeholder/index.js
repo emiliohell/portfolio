@@ -28,7 +28,7 @@ const Placeholder = ({}) => (
         text-align: center;
       }
 
-      @media screen and (min-width: 620px) {
+      @media screen and (min-width: 700px) {
         .container {
           font-size 1.75em;
         }

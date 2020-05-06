@@ -28,7 +28,7 @@ export default () => (
         justify-content: center;
       }
 
-      a {
+      .social > a {
         margin: 1.5rem;
       }
 
