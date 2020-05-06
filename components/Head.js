@@ -16,7 +16,7 @@ export default () => (
     <meta name="author" content="Emilio Hellberg" key="author" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+      content="width=device-width, initial-scale=1.0"
       key="viewport"
     />
     <link rel="icon" type="image/x-icon" href="/favicon.png" key="icon" />
