@@ -2,7 +2,7 @@ import Social from "./social";
 
 const Placeholder = ({}) => (
   <div className="container">
-    <h1>Hello World!</h1>
+    <h1 className="headline">Hello World!</h1>
     <h1>
       I'm <span className="gradient-pink-peach">Emilio Hellberg</span>
     </h1>
@@ -26,6 +26,10 @@ const Placeholder = ({}) => (
 
       h1 {
         text-align: center;
+      }
+
+      .headline {
+        margin-top: 1.5em;
       }
 
       @media screen and (min-width: 700px) {
