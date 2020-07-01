@@ -7,11 +7,7 @@ export default () => (
     >
       <img src="/images/github.svg" alt="GitHub " className="logo" />
     </a>
-    <a
-      href="mailto:emilio.hellberg@hyperisland.se"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
+    <a href="mailto:me@emilioh.se" target="_blank" rel="noopener noreferrer">
       <img src="/images/send.svg" alt="Mail" className="logo" />
     </a>
     <a
