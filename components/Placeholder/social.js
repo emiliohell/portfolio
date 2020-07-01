@@ -19,7 +19,7 @@ export default () => (
         <img src="/images/linkedin.svg" alt="LinkedIn" className="logo" />
       </a>
     </div>
-    <img src="/images/emilio2.gif" alt="Emilio" className="emilioGif" />
+    {/* <img src="/images/emilio2.gif" alt="Emilio" className="emilioGif" /> */}
     <style jsx>{`
       .social {
         display: flex;
